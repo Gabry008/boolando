@@ -67,6 +67,10 @@ nav img {
     padding: 3px 3px;
 }
 
+.card {
+    padding: 1rem 1rem;
+}
+
 /*utility*/
 
 .container {
@@ -80,6 +84,14 @@ nav img {
 
 .flex{
     display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 .gap-1 {
