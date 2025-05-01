@@ -32,6 +32,41 @@ nav img {
     display: block;
 }
 
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.discount {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.hearth {
+    top: 20px;
+    right: 0;
+    background-color: white;
+    padding: 20px 15px;
+    font-size: 150%;
+}
+
+.targhetta{
+    bottom: 40px;
+    left: 0px;
+}
+
+.scontistica {
+    color: white;
+    background-color: red;
+    padding: 3px 3px;
+}
+
+.sostenibilità {
+    color: white;
+    background-color: rgb(0, 177, 15);
+    padding: 3px 3px;
+}
+
 /*utility*/
 
 .container {
@@ -49,4 +84,21 @@ nav img {
 
 .gap-1 {
     gap: 1rem;
+}
+
+.block {
+    display: block;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
