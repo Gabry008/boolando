@@ -71,6 +71,17 @@ nav img {
     padding: 1rem 1rem;
 }
 
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.card:hover .img-hover {
+    opacity: 1;
+}
+
 /*utility*/
 
 .container {
@@ -102,6 +113,10 @@ nav img {
     display: block;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 .img-fluid{
     width: 100%;
     height: auto;
@@ -123,3 +138,10 @@ nav img {
     margin-top: 70px;
 }
 
+.bg-gray {
+    background-color: #1A1A1A;
+}
+
+.p-1{
+    padding: 1rem 0px;
+}
